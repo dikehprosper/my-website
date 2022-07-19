@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn coding</title>
+    <link rel="stylesheet" href="/website.css">
+  
+</head>
+<body>
+    <div class="head">
+       <div>
+           <h1>HTML FULL COURSE</h1>
+       </div>
+       <div>
+   
+           <div class="nav">
+        
+             <div><input class="search" type="text" name="" id="" placeholder="Search">
+             </div>
+               <div> 
+                  <a href="mailto:dikehprosper@gmail.com">Contact</a>
+           
+               </div>
+            </div>
+        </div>
+    </div>
+  <div class="theelements1">
+    <div class="theelements">
+    <div class="elements"><a href="/HTMLBasics.html" target="_blank">Basics  In HTML</a></div>
+    <div class="elements"><a href="/HTMLElements.html" target="_blank"> Elements  In HTML </a></div>
+    <div class="elements"><a href="/HTMLAttributes.html" target="_blank">Attributes In HTML </a></div>
+    <div class="elements"><a href="/HTMLHeadings.HTML" target="_blank">Headings In HTML  </a></div>
+    <div class="elements"><a href="/HTMLStyles.HTML" target="_blank">Styles In HTML </a></div>
+    <div class="elements"><a href="/HTMLFormatting.HTML" target="_blank">Formatting In HTML </a></div>
+    <div class="elements"><a href="/HTMLLinks.HTML" target="_blank"> Links In HTML </a></div>
+    <div class="elements"><a href="/HTMLImages.HTML" target="_blank">Images In HTML </a> </div>
+    <div class="elements"><a href="/HTMLFavicon.HTML" target="_blank"> Favicon In HTML </a> </div>
+    <div class="elements"><a href="/HTMLTables.HTML" target="_blank"> Tables In HTML </a> </div>
+    <div class="elements"><a href="/HTMLStyleguide.HTML" target="_blank"> Style Guide In HTML </a> </div>
+    <div class="elements"><a href="/HTMLParagraphs.HTML" target="_blank"> Paragraphs In HTML </a></div>
+    <div class="elements"><a href="/HTMLBlock&inline.HTML" target="_blank"> Block & Inline In HTML </a> </div>
+    <div class="elements"><a href="/HTMLClasses.HTML" target="_blank">Classes In HTML </a> </div>
+    <div class="elements"><a href="/HTMLId.HTML" target="_blank"> Id In HTML </a></div>
+    <div class="elements"><a href="/HTMLColors.HTML" target="_blank">Colors In HTML </a></div>
+    <div class="elements"><a href="/HTMLIframes.HTML" target="_blank"> Iframes In HTML </a></div>
+    <div class="elements"><a href="/HTMLJavascript.HTML" target="_blank"> Javscript In HTML  </a></div>
+    <div class="elements"><a href="/HTMLFilepath.HTML" target="_blank">File Paths In HTML </a> </div>
+    <div class="elements"><a href="/HTMLHead.HTML" target="_blank"> Head In HTML </a></div>
+    <div class="elements"><a href="/HTMLLayout.HTML" target="_blank"> Layout In HTML </a></div>
+    <div class="elements"><a href="/HTMLComments.HTML" target="_blank"> Comments In HTML </a> </div>
+    <div class="elements"><a href="/HTMLResponsive.HTML" target="_blank"> Responsive In HTML  </a></div>
+    <div class="elements"><a href="/HTMLComputercode.HTML" target="_blank"> Computercode In HTML </a></div>
+    <div class="elements"><a href="/HTMLSemantic.HTML" target="_blank"> Semantic In HTML </a></div>
+    <div class="elements"><a href="/HTMLEntities.html" target="_blank">Entities In HTML </a> </div>
+    <div class="elements"><a href="/HTMLSymbols.HTML" target="_blank">Symbols In HTML </a></div>
+    <div class="elements"><a href="/HTMLEmojis.HTML" target="_blank"> Emojis In HTML </a> </div>
+     </div>
+        <div class="body">
+            <h1>Responsive In HTML </h1>
+            <p> 
+                Responsive web design is about creating web pages that look good on all devices!
+
+                A responsive web design will automatically adjust for different screen sizes and viewports.
+           ?
+                Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):
+                
+                To create a responsive website, add the following < meta > tag to all your web pages:  <br>
+                
+                <span style="font-weight:bold;">Example</span>  <br>
+                < meta name="viewport" content="width=device-width, initial-scale=1.0" >. <br>
+                This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.
+                <br>
+               
+                
+               <h3>Responsive Images</h3> 
+                Responsive images are images that scale nicely to fit any browser size.
+                If the CSS width property is set to 100%, the image will be responsive and scale up and down:
+                <br>
+                
+                <span style="font-weight:bold;">Example</span>  <br>
+                < img src="img_girl.jpg" style="width:100%;" >
+                Notice that in the example above, the image can be scaled up to be larger than its original size. A better solution, in many cases, will be to use the max-width property instead.
+                <br>
+                <span style="font-weight:bold;">max-width Property</span>  <br>  
+                If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size:
+                .<br>
+              
+                 <h3>Responsive Text Size</h3> 
+                The text size can be set with a "vw" unit, which means the "viewport width".
+                
+                That way the text size will follow the size of the browser window: <br>
+                
+              
+                
+                <h3>Media Queries</h3> 
+                In addition to resize text and images, it is also common to use media queries in responsive web pages.
+                
+                With media queries you can define completely different styles for different browser sizes. <br>
+                
+               
+                <span style="font-weight:bold;">Example</span>  <br>
+                < style >   <br>
+                .left, .right { <br>
+                  float: left; <br>
+                  width: 20%; /* The width is 20%, by default */  <br>
+                } <br>
+                
+                .main { <br>
+                  float: left; <br>
+                  width: 60%; /* The width is 60%, by default */<br>
+                }<br>
+                
+                /* Use a media query to add a breakpoint at 800px: */<br>
+                @media screen and (max-width: 800px) {  <br>
+                  .left, .main, .right {   <br>
+                    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */   <br>
+                  }   <br>
+                } <br>
+                < /style ><br>
+                
+                
+            
+                A responsive web page should look good on large desktop screens and on small mobile phones.  <br>
+                
+                
+               
+                
+                <h3>Bootstrap</h3> 
+                Another popular CSS framework is Bootstrap. Bootstrap uses HTML, CSS and jQuery to make responsive web pages. <br>
+                
+             
+                   
+            </p>
+         </div>
+</body>
+</html>
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            
+         
+            
+   
+
+
+
+
+
+
